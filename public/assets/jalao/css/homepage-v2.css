@@ -1,0 +1,234 @@
+.carousel-img-2:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #000, #000);
+  opacity: .4;
+}
+
+.carousel-img-3:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #000, #000);
+  opacity: .4;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 60px;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  display: none;
+}
+
+.slider-btn{
+    margin-top: 30px;
+}
+
+.inner-btn{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.front-boxes{
+     z-index: 6; 
+     position: relative;
+}
+
+.restaurant-welcome p{
+    margin-bottom: 10px;
+}
+
+figure.img-bars img{
+    width: 100%;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    transition: 0.3s;
+}
+
+figure.img-bars img:hover{
+    width: 100%;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+
+.shadow-box{
+    box-shadow: 0 0 10px rgba(204,204,204,0.6);
+    -moz-box-shadow: 0 0 10px rgba(204,204,204,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(204,204,204,0.6);
+    -o-box-shadow: 0 0 10px rgba(204,204,204,0.6);
+    text-align: center;
+    padding: 30px 10px 30px 10px;
+    transition: 0.3s;
+    background: #FFF;
+}
+
+.shadow-box figure.icon-caftering{
+    background-image: url("../img/master/caftering.png");
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.shadow-box figure.icon-events{
+    background-image: url("../img/master/open-bar.png");
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.shadow-box figure.icon-reservations{
+    background-image: url("../img/master/reservation.png");
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.shadow-box:hover{
+    background: #FF404C;
+}
+
+.shadow-box:hover figure.icon-caftering{
+    background-image: url("../img/master/caftering-white.png");
+}
+
+.shadow-box:hover figure.icon-events{
+    background-image: url("../img/master/open-bar-white.png");
+}
+
+.shadow-box:hover figure.icon-reservations{
+    background-image: url("../img/master/reservation-white.png");
+}
+
+.shadow-box p{
+    line-height: 1.5;
+    margin: 10px 0px 15px 0px;
+    transition: 0.3s;
+}
+
+.shadow-box:hover p{
+    color: #FFF;
+}
+
+.shadow-box h5{
+    color: #333;
+    transition: 0.3s;
+}
+
+.shadow-box:hover h5{
+    color: #FFF;
+}
+
+
+.btn-panel .btn-custom {
+  color: #FF404C;
+  background-color: transparent;
+  border-color: #FF404C;
+  transition: 0.3s;
+  padding: 6px 25px;
+}
+
+.btn-panel .btn-custom:hover {
+  color: #fff;
+  background-color: #222222;
+  border-color: #222222;
+}
+
+.btn-panel .btn-custom:focus, .btn-custom.focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 64, 76, 0.5);
+}
+
+.shadow-box:hover .btn-panel .btn-custom{
+  color: #FF404C;
+  background-color: #FFF;
+  border-color: #FFF;
+  transition: 0.3s;
+  padding: 6px 25px;
+}
+
+.front-bg-img{
+    background-image: url("../img/images/food7.jpg");
+    height: 450px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: -220px;
+    z-index: 5;
+}
+
+.front-bg-img:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #FF404C, #000);
+  opacity: .4;
+}
+
+@media (max-width:992px) {  
+.restaurant-welcome{
+    margin-bottom: 30px;
+}
+    
+.center-box-2{
+    margin: 20px 0px 20px 0px;
+}
+    
+}
+
+@media (max-width:576px) {  
+.img-responsive{
+    margin-bottom: 30px;
+}
+    
+}
